@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<command>
+					kitty
+				</command>
+			</action>
+		</item>
+		<item label="Web Browser">
+			<action name="Execute">
+				<command>
+					firefox
+				</command>
+			</action>
+		</item>
+		<item label="File Manager">
+			<action name="Execute">
+				<command>
+					thunar
+				</command>
+			</action>
+		</item>
+		<separator/>
+		<menu id="accessories" label="Accessories">
+			<item label="Archive Manager">
+				<action name="Execute">
+					<command>
+						file-roller
+					</command>
+				</action>
+			</item>
+			<item label="Terminal">
+				<action name="Execute">
+					<command>
+						kitty
+					</command>
+				</action>
+			</item>
+			<item label="Thunar File Manager">
+				<action name="Execute">
+					<command>
+						thunar
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-101141" label="Development">
+			<item label="Visual Studio Code">
+				<action name="Execute">
+					<command>code</command>
+				</action>
+			</item>
+			<item label="Android Studio">
+				<action name="Execute">
+					<command>code</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="office" label="Office">
+			<item label="Libre Office Writer">
+				<action name="Execute">
+					<command>libre</command>
+				</action>
+			</item>
+			<item label="Calculator">
+				<action name="Execute">
+					<command>
+						galculator
+					</command>
+				</action>
+			</item>
+			<item label="Evince PDF Viewer">
+				<action name="Execute">
+					<command>
+						evince
+					</command>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Restart Openbox">
+			<action name="Execute">
+				<command>
+					openbox --restart
+				</command>
+			</action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Execute">
+				<command>
+					openbox --reconfigure
+				</command>
+			</action>
+		</item>
+		<item label="Lock Screen">
+			<action name="Execute">
+				<command>
+					cb-lock
+				</command>
+			</action>
+		</item>
+		<item label="Exit">
+			<action name="Execute">
+				<command>
+					cb-exit
+				</command>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
